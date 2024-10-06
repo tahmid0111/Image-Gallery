@@ -1,6 +1,6 @@
 import React from "react";
 import BuildingImage from "./BuildingImage";
-import { buildingImages } from "../../../data/images";
+import { buildingImages } from "../../../utils/images";
 
 const BuildingImages = () => {
   return (

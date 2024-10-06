@@ -1,7 +1,7 @@
 import React, { Suspense, useState } from "react";
 import ComponentLayout from "../../layout/ComponentLayout";
 import Navbar2 from "../shared/Navbar2";
-import { importData } from "./demoComponent/lazy";
+import { importData } from "./lazy";
 
 const LazyComponent = () => {
   const [compo, setCompo] = useState("movies");

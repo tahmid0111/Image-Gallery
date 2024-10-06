@@ -1,6 +1,6 @@
 import React from "react";
 import PlaceImage from "./PlaceImage";
-import { placeImages } from "../../../data/images";
+import { placeImages } from "../../../utils/images";
 
 const PlaceImages = () => {
   return (

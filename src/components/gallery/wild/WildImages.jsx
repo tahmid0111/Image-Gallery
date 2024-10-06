@@ -1,6 +1,6 @@
 import React from "react";
 import WildImage from "./WildImage";
-import { wildImages } from "../../../data/images";
+import { wildImages } from "../../../utils/images";
 
 
 const WildImages = () => {
