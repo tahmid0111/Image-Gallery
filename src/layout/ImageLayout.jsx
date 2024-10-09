@@ -7,7 +7,7 @@ const ImageLayout = (props) => {
     <div>
       <Header />
       <Navbar />
-      <div className="mx-20">{props.children}</div>
+      <div className="mx-2 md:mx-10 xl:mx-20 mb-5 md:mb-10">{props.children}</div>
     </div>
   );
 };

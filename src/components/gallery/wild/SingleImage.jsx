@@ -7,7 +7,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const SingleImage = ({ scrollPosition, item }) => {
   return (
-    <div className="m-2">
+    <div className="m-0.5 md:m-2">
       <LazyLoadImage
         scrollPosition={scrollPosition}
         src={item.image}
