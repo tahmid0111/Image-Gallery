@@ -5,9 +5,9 @@ import {
 } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-const WildImage = ({ scrollPosition, item }) => {
+const SingleImage = ({ scrollPosition, item }) => {
   return (
-    <div className="col-span-6">
+    <div className="m-2">
       <LazyLoadImage
         scrollPosition={scrollPosition}
         src={item.image}
@@ -19,4 +19,4 @@ const WildImage = ({ scrollPosition, item }) => {
   );
 };
 
-export default trackWindowScroll(WildImage);
+export default trackWindowScroll(SingleImage);

@@ -4,13 +4,13 @@ import {
   trackWindowScroll,
 } from "react-lazy-load-image-component";
 
-const BuildingImage = ({ scrollPosition, item }) => {
+const SingleImage = ({ scrollPosition, item }) => {
   return (
-    <div>
+    <div className="m-2">
       <LazyLoadImage
         scrollPosition={scrollPosition}
         src={item.image}
-        width="50%"
+        width="100%"
         height={500}
         alt={item.alt}
       />
@@ -18,4 +18,4 @@ const BuildingImage = ({ scrollPosition, item }) => {
   );
 };
 
-export default trackWindowScroll(BuildingImage);
+export default trackWindowScroll(SingleImage);
