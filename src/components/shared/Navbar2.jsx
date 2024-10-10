@@ -13,7 +13,7 @@ const Navbar2 = ({ onHandleCompo }) => {
         >
           Movies
         </button>
-        <button
+        {/* <button
           onClick={() => handleClick("actors")}
           className="btn btn-outline btn-accent px-5 md:px-10 m-3 md:m-5"
         >
@@ -24,7 +24,7 @@ const Navbar2 = ({ onHandleCompo }) => {
           className="btn btn-outline btn-neutral px-5 md:px-10 m-3 md:m-5"
         >
           Actress
-        </button>
+        </button> */}
       </div>
     </nav>
   );
