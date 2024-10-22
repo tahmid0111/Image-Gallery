@@ -5,11 +5,12 @@ const Navbar2 = ({ onHandleCompo }) => {
     onHandleCompo(compo);
   };
   return (
-    <nav className="grid grid-cols-12">
+    <nav className="grid grid-cols-12" aria-label="Navigation Section">
       <div className="col-span-12 text-center mx-2 sm:mx-5">
         <button
           onClick={() => handleClick("movies")}
           className="btn btn-outline btn-warning px-5 md:px-10 m-3 md:m-5"
+          aria-label="Movies Section"
         >
           Movies
         </button>
