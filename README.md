@@ -7,9 +7,9 @@
   
 </div>
 
-## <div align="center">Video Preview: </div>
+## <div>Video Preview: </div>
 
-## <div align="center">Live link: https://image-gallery-omega-steel.vercel.app/</div>
+## <div>Live link: https://image-gallery-omega-steel.vercel.app/</div>
 
 # _Features_ ⬇️
 
