@@ -1,16 +1,24 @@
 # <div align="center"> Image Gallery 😊</div>
 
+## <div align="center">Video Preview: </div>
+
+## <div align="center">Live link: https://image-gallery-omega-steel.vercel.app/</div>
+
 <div align="center">
   
-  [![portfolio](https://img.shields.io/badge/my_portfolio-FFFF00?style=for-the-badge&logo=ko-fi&logoColor=black)](https://tahmid0111.github.io/Portfolio_Website_html5/)     [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tahmid-emam/)     [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/tahmid_emam)
+  [![portfolio](https://img.shields.io/badge/my_portfolio-FFFF00?style=for-the-badge&logo=ko-fi&logoColor=black)](https://tahmid0111.github.io/Portfolio_Website_html5/)     [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tahmid-emam/)[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/tahmid_emam)
   
 </div>
 
 # _Features_ ⬇️
 
-- ### This project was made just for practicing the popular react-lazy-load-image-component.
+- ### This project displays the use of Lazy-loading and the popular react-lazy-load-image-component.
 
-- ### Includes all the necessary packages.
+- ### Almost 18mb images are loading in the initial rendering but you got the first paintful content in the first chance.
+
+- ### All the images are loading one by one and images that are in other pages will not be loaded until you go to that page.
+
+- ### The movies page will be fetched when you go to that page using pure lazy-loading.
 
 # Getting Started
 
@@ -21,6 +29,7 @@
 ```bash
 git clone https://github.com/tahmid0111/Image-Gallery.git
 ```
+
 ## 2. Install Dependencies:
 
 ```bash
@@ -33,6 +42,5 @@ npm install
 ```bash
 npm run dev
 ```
-
 
 ## Have a cup of coffee and start Coding😊😊
