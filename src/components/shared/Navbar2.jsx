@@ -9,10 +9,10 @@ const Navbar2 = ({ onHandleCompo }) => {
       <div className="col-span-12 text-center mx-2 sm:mx-5">
         <button
           onClick={() => handleClick("movies")}
-          className="btn btn-outline btn-warning px-5 md:px-10 m-3 md:m-5"
+          className="bg-green-600 text-white py-3 rounded-lg px-5 md:px-10 m-3 md:m-5"
           aria-label="Movies Section"
         >
-          Movies
+          Todos
         </button>
         {/* <button
           onClick={() => handleClick("actors")}

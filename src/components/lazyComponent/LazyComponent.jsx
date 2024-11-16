@@ -13,7 +13,7 @@ const LazyComponent = () => {
   };
   return (
     <ComponentLayout>
-      <Navbar2 onHandleCompo={onHandleCompo} />
+      {/* <Navbar2 onHandleCompo={onHandleCompo} /> */}
       <Suspense fallback={<div>...loading</div>}>{MyCompo}</Suspense>
     </ComponentLayout>
   );

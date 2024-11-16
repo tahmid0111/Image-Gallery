@@ -6,19 +6,19 @@ const Navbar = () => {
     <nav className="grid grid-cols-12" aria-label="Navigation Section">
       <div className="col-span-12 text-center mx-5">
         <Link to="/" aria-label="Wild Photos">
-          <button className="btn btn-outline btn-primary px-5 md:px-10 m-3 md:m-5">
+          <p className="bg-pink-600 text-white py-3 rounded-lg w-32 inline-block px-5 md:px-10 m-3 md:m-5 hover:scale-105 transition">
             Wild
-          </button>
+          </p>
         </Link>
         <Link to="/image/places" aria-label="Places Photos">
-          <button className="btn btn-outline btn-secondary px-5 md:px-10 m-3 md:m-5">
+          <p className="bg-green-600 text-white py-3 rounded-lg w-32 inline-block px-5 md:px-10 m-3 md:m-5 hover:scale-105 transition">
             Places
-          </button>
+          </p>
         </Link>
-        <Link to="/image/buildings" aria-label="Buildings Photos">
-          <button className="btn btn-outline btn-success px-5 md:px-10 m-3 md:m-5">
+        <Link to="/image/buildings" aria-label="Buildings Photos" className="">
+          <p className="bg-yellow-500 text-white py-3 rounded-lg w-32 inline-block px-5 md:px-10 m-3 md:m-5 hover:scale-105 transition">
             Buildings
-          </button>
+          </p>
         </Link>
       </div>
     </nav>

@@ -10,12 +10,12 @@ const Header = () => {
       </div>
       <div className="col-span-12 mx-5">
         <Link to="/">
-          <h1 className="btn md:btn-lg btn-info px-10 md:px-16 text-xl font-bold mx-2 md:mr-5 xl:mr-10 mb-5">
+          <h1 className="bg-blue-600 text-white w-72 inline-block py-5 rounded-lg px-10 md:px-16 text-xl font-bold mx-2 md:mr-5 xl:mr-10 mb-5 hover:scale-105 transition">
             Image Gallery
           </h1>
         </Link>
         <Link to="/component">
-          <h1 className="btn md:btn-lg btn-error px-10 md:px-16 text-xl font-bold">
+          <h1 className="bg-red-500 text-white w-72 inline-block py-5 rounded-lg px-10 md:px-16 text-xl font-bold hover:scale-105 transition">
             Lazy Component
           </h1>
         </Link>

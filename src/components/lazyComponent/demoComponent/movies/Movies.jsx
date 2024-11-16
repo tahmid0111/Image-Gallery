@@ -6,7 +6,7 @@ const Movies = () => {
   const [movies, setMovies] = useState([]);
 
   const fetchData = async () => {
-    let url = `https://api.sampleapis.com/movies/mystery`;
+    let url = `https://jsonplaceholder.typicode.com/posts`;
     let res = await getData(url);
     setMovies(res.data);
   };
